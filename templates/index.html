@@ -8,11 +8,31 @@
 </head>
 <body>
     <button class="show-cupcakes">Show All Cupcakes</button>
+    <div class="cupcake-list"></div>
+    <div class="container" style="display: none">
+        <h1 class="display-1">Cupcakes</h1>
+        <table class="table table-striped">
+          <thead class="table-dark">
+            <th>ID</th>
+            <th>Flavor</th>
+            <th>Size</th>
+            <th>Rating</th>
+            <th>Image</th>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+    </div>
+    <form >
+        <label for="flavor">Flavor</label><input class="flavor" type="text">
+        <label for="size">Size</label><input class="size" type="text">
+        <label for="rating">Rating</label><input class="rating" type="text">
+        <label for="image">Image URL</label><input class="image" type="text">
+        <button class="create-cupcake">Create Cupcake</button>
+    </form>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js" integrity="sha512-xIPqqrfvUAc/Cspuj7Bq0UtHNo/5qkdyngx6Vwt+tmbvTLDszzXM0G6c91LXmGrRx8KEPulT+AfOOez+TeVylg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="/static/app.js"></script>
 </body>
 </html>
-
-<a href="/"></a>
